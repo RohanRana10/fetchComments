@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&display=swap');
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container{
+    height: 90vh;
+    width: 95vw;
+    font-family: 'Merriweather', serif;
+}
+
+.leftSection{
+    background-color: lightgreen;
+    width: 45%;
+    height: 95%;
+    margin: 20px;
+    padding-top: 12px;
+    border-radius: 15px;
+
+    .formContainer{
+        width: 90%;
+        margin: 5px 0px;
+    }
+}
+
+.rightSection{
+    background-color: rgb(245, 142, 142);
+    width: 45%;
+    height: 95%;
+    margin: 20px;
+    padding-top: 12px;
+    border-radius: 15px;
+
+    .heading{
+        color: white;
+        text-align: center;
+        margin-top: 8px;    
+    }
+
+    .commentBox{
+    margin: 10px 5px;
+    cursor: pointer;
+    background-color: maroon;
+    height: auto;
+    width: 90%;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+
+    .commentBody{
+        background-color: rgb(245, 154, 154);
+        color: black;
+        padding: 8px;
+        border-radius: 15px;
+        margin: 16px;
+    }
+
+    .boldText{
+        color: black;
+        font-weight: 600;
+    }
+
+    .postId{
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+        width: 25px;
+        height: 25px;
+        padding: 18px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius:15px;
+    }
+}
+}
+
+.commentBox{
+    margin: 10px 5px;
+    cursor: pointer;
+    background-color: green;
+    height: auto;
+    width: 90%;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+
+    .commentBody{
+        background-color: lightgreen;
+        color: black;
+        padding: 8px;
+        border-radius: 15px;
+        margin: 16px;
+    }
+
+    .boldText{
+        color: black;
+        font-weight: 600;
+    }
+
+    .postId{
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: maroon;
+        width: 25px;
+        height: 25px;
+        padding: 18px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius:15px;
+    }
+}
